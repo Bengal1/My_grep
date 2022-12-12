@@ -7,13 +7,13 @@ grep presentation
 
 my grep presentation
 
-### modules
+### *modules*
 `input_format`
 
 `find_match`
 
 `output_print`
 
-my grep functionallity
+### *Functionality*
 
 
