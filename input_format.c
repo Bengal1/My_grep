@@ -225,7 +225,7 @@ int SegmentAnalyze(Expression* segment, const char* position)
     current_segment->next = NULL;
     real_cnt = EMPTY;
   } else {  // characters sequence
-    real_cnt = get_sequence(position, current_segment);
+    real_cnt = GetSequence(position, current_segment);
   }
   return real_cnt;
 }
