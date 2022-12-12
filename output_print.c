@@ -31,7 +31,7 @@ int count_number_of_matches(Lines* PrintInfo)
   return counter;
 }
 
-char* assign_memory_to_line(int line_number, int num_of_bytes, char* app_line)
+char* AssignMemoryToLine(int line_number, int num_of_bytes, char* app_line)
 {
   int length;
   char* line;
@@ -79,7 +79,7 @@ Lines* PrintRestOfLines(const Input* input, Lines* stream_bookmark, Lines* curre
   Lines* current_line = stream_bookmark;
 
   while (0 != counter && NULL != current_line && NULL != current_print) {
-    line_to_print = assign_memory_to_line(current_line->num_of_line, current_line->num_of_bytes, current_line->line);
+    line_to_print = AssignMemoryToLine(current_line->num_of_line, current_line->num_of_bytes, current_line->line);
     if (check_if_line_in_print_list(current_line->num_of_line, PrintInfo->next)) {
       delimiter = DELIMITER_1ST;
       counter = input->A;
@@ -118,7 +118,7 @@ void PrintRoutine(Lines* PrintInfo, Input* input, Lines* lines)
     return;
   }
   while (current_print != NULL) {
-    line = assign_memory_to_line(current_print->num_of_line, current_print->num_of_bytes, current_print->line);
+    line = AssignMemoryToLine(current_print->num_of_line, current_print->num_of_bytes, current_print->line);
     delimiter = DELIMITER_1ST;
     if (input->n) {
       CreateLine(line, current_print->num_of_line, delimiter);
