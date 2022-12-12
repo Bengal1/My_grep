@@ -142,7 +142,7 @@ void UpdateSegment(Expression* current_segment, const char* position, const int 
   return;
 }
 
-int get_sequence(const char* position, Expression* current_segment)
+int GetSequence(const char* position, Expression* current_segment)
 {
 
   int cnt = 0;
