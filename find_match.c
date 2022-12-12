@@ -163,7 +163,7 @@ bool CheckMatchInLine(Expression* current_exp, int pose_cnt, int* cnt_nextstep, 
   }
 }
 
-Lines* is_match_in_line(Input* input, Expression* expression_disassembled, char* line, int line_number, Lines* lines,
+Lines* IsMatchInLine(Input* input, Expression* expression_disassembled, char* line, int line_number, Lines* lines,
                         int num_of_bytes)
 {
   int pose_cnt = 0;
