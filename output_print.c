@@ -5,7 +5,7 @@
 #define DELIMITER_1ST ":"
 #define DELIMITER_2ND "-"
 
-bool check_if_line_in_print_list(const int num_of_line, Lines* print_list)
+bool CheckIfLineInPrintList(const int num_of_line, Lines* print_list)
 {
   Lines* current_line = print_list->next;
 
@@ -80,7 +80,7 @@ Lines* PrintRestOfLines(const Input* input, Lines* stream_bookmark, Lines* curre
 
   while (0 != counter && NULL != current_line && NULL != current_print) {
     line_to_print = AssignMemoryToLine(current_line->num_of_line, current_line->num_of_bytes, current_line->line);
-    if (check_if_line_in_print_list(current_line->num_of_line, PrintInfo->next)) {
+    if (CheckIfLineInPrintList(current_line->num_of_line, PrintInfo->next)) {
       delimiter = DELIMITER_1ST;
       counter = input->A;
       current_print = current_print->next;
