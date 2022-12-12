@@ -19,7 +19,7 @@ bool check_if_line_in_print_list(const int num_of_line, Lines* print_list)
   return false;
 }
 
-int count_number_of_matches(Lines* PrintInfo)
+int CountNumberOfMatches(Lines* PrintInfo)
 {
   Lines* current_print = PrintInfo;
   int counter = 0;
@@ -114,7 +114,7 @@ void PrintRoutine(Lines* PrintInfo, Input* input, Lines* lines)
 
   current_print = PrintInfo->next;
   if (input->c) {
-    printf("%d\n", count_number_of_matches(PrintInfo->next));
+    printf("%d\n", CountNumberOfMatches(PrintInfo->next));
     return;
   }
   while (current_print != NULL) {
