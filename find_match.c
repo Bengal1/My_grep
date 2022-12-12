@@ -132,7 +132,7 @@ bool is_it_x(const char* line, Expression* exp_disassembled)
   return false;
 }
 
-bool check_match_in_line(Expression* current_exp, int pose_cnt, int* cnt_nextstep, Expression* expression_disassembled,
+bool CheckMatchInLine(Expression* current_exp, int pose_cnt, int* cnt_nextstep, Expression* expression_disassembled,
                          Input* input, char* exam_line, int i)
 {
   bool match_in_line_flag = false;
@@ -195,7 +195,7 @@ Lines* is_match_in_line(Input* input, Expression* expression_disassembled, char*
     for (i = 0; i <= strlen(exam_line); i++) {
       current_exp = expression_disassembled;
       match_in_line_flag =
-          check_match_in_line(current_exp, pose_cnt, &cnt_nextstep, expression_disassembled, input, exam_line, i);
+          CheckMatchInLine(current_exp, pose_cnt, &cnt_nextstep, expression_disassembled, input, exam_line, i);
       if (match_in_line_flag) {
         break;
       } else if ((input->v) && (cnt_nextstep == END_OF_EXP) && !(match_in_line_flag)) {
