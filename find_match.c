@@ -20,7 +20,7 @@ char* handle_i(char* exp)
   return lower_case_exp;
 }
 
-bool has_empty_argument(Expression* exam_segment)
+bool HasEmptyArgument(Expression* exam_segment)
 {
   char* argument1 = NULL;
   char* argument2 = NULL;
@@ -148,7 +148,7 @@ bool check_match_in_line(Expression* current_exp, int pose_cnt, int* cnt_nextste
     } else if (*cnt_nextstep == EMPTY) {
       if ((input->v) && (i == strlen(exam_line))) {
         return true;
-      } else if (has_empty_argument(current_exp)) {
+      } else if (HasEmptyArgument(current_exp)) {
         pose_cnt = pose_cnt + *cnt_nextstep;
         current_exp = current_exp->next;
       } else {
