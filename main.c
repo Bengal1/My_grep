@@ -47,7 +47,7 @@ int main(int argc, char* argv[])
   current_line = lines->next;
 
   while (NULL != current_line) {
-    if (NULL != (current_match->next = is_match_in_line(input, expression_disassembled, current_line->line,
+    if (NULL != (current_match->next = IsMatchInLine(input, expression_disassembled, current_line->line,
                                                 current_line->num_of_line, lines, current_line->num_of_bytes))) {
       current_match = current_match->next;
     }
