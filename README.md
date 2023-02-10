@@ -29,7 +29,7 @@ This control key is written right before the expression and it indicates that [r
 
 
 ### *Title!!!!:*
-The lines in qoute below are from the Wikipedia page - grep. We will use them to demonstrait the use of the the function. Let us refer to them as a file 'grep.wiki'.
+The lines in qoute below are from the Wikipedia page - grep. We will use them to demonstrait the use of the program functionality. Let us refer to them as a file 'grep.wiki'.
 
 """
 
