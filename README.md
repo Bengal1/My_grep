@@ -8,12 +8,19 @@ This program is a vriation of the Linux utility grep. The program gets a file pa
 
 ### Control Keys
 `-A NUM` - 
+
 `-b` - 
+
 `-c` - 
+
 `-i` - 
+
 `-n` - 
+
 `-v` - 
+
 `-x` - 
+
 `-E` - 
 
 
