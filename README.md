@@ -24,7 +24,7 @@ This program is a vriation of the Linux utility grep. The program gets a an expr
 This control key is written right before the expression and it indicates that [regular expressions](https://en.wikipedia.org/wiki/Regular_expression) are used at the input expression.
 - The special keys **()[]{}|\\** will be escaped with '\\'.
 - **(str1|str2)** - When using it the program will accept str1 or str2 in its respective place when lookin for the wanted expression.
-- **[x-y]** - When using it the program will accept characters with ASCII values between x and y in its respective place when lookin for the wanted expression.
+- **[x-y]** - When using it the program will accept characters with [ASCII](https://en.wikipedia.org/wiki/ASCII) values between x and y in its respective place when lookin for the wanted expression.
 - **.** (dot) - When using dot (.) the program will accept every character in its respective place when lookin for the wanted expression.
 
 
@@ -33,9 +33,9 @@ The nine lines in qoute below are from the Wikipedia page - grep. We will use th
 
 """
 
-grep is a command-line utility for searching plain-text data sets for lines that match a regular expression. 
+grep is a command-line utility for searching plain-text data sets for lines that match a regular expression.
 
-Its name comes from the ed command grep (globally search for a regular expression and print matching lines), which has the same effect. 
+Its name comes from the ed command grep (globally search for a regular expression and print matching lines), which has the same effect.
 
 grep was originally developed for the Unix operating system, but later available for all Unix-like systems and some others such as OS-9.
 
@@ -58,7 +58,10 @@ Thompson's account may explain the belief that grep was written overnight.
 ```
 3:  grep was originally developed for the Unix operating system, but later available for all Unix-like systems and some others such as OS-9.
 ```
-
+`my_grep -b OS grep.wiki`
+```
+244:  grep was originally developed for the Unix operating system, but later available for all Unix-like systems and some others such as OS-9.
+```
 `my_grep -n -A 2 OS grep.wiki`
 
 ```
@@ -99,6 +102,7 @@ Thompson's account may explain the belief that grep was written overnight.
 3:  grep was originally developed for the Unix operating system, but later available for all Unix-like systems and some others such as OS-9.
 7:  Thompson actually corrected bugs and made improvements for about an hour on his own program called s (short for "search").
 ```
-add printouts after every command!!!
+`my_grep -n -v -E it. grep.wiki`
+```
 
-
+```
