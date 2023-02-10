@@ -29,7 +29,7 @@ This control key is written right before the expression and it indicates that [r
 
 
 ## *Demonstration:*
-The nine lines in qoute below are from the Wikipedia page - grep. We will use them to demonstrait the use of the program functionality. Let us refer to them as a file 'grep.wiki'.
+The nine lines in the qoute below are from the Wikipedia page - grep. We will use them to demonstrait the use of the program functionality. Let us refer to them as a file 'grep.wiki'.
 
 """
 
@@ -49,9 +49,11 @@ Thompson actually corrected bugs and made improvements for about an hour on his 
 
 The next day he presented the program to McIlroy, who said it was exactly what he wanted. 
 
-Thompson's account may explain the belief that grep was written overnight.
+Thompson's account may explain the belief that grep was written overnight.*
 
 """
+
+The following part demonstrait valid command and there output. As you can see the name of the program is `my_grep` and the name of the "file" in the demonstraition is `grep.wiki`.
 
 `my_grep -n OS grep.wiki`
 
