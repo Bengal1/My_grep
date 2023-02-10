@@ -97,12 +97,14 @@ Thompson's account may explain the belief that grep was written overnight.
 6
 9
 ```
-`my_grep -n -v -E it. grep.wiki`
+`my_grep -n -i -E be. grep.wiki`
 ```
 3:  grep was originally developed for the Unix operating system, but later available for all Unix-like systems and some others such as OS-9.
 7:  Thompson actually corrected bugs and made improvements for about an hour on his own program called s (short for "search").
 ```
 `my_grep -n -v -E it. grep.wiki`
 ```
+4:  Before it was named, grep was a private utility written by Ken Thompson to search files for certain patterns. 
+9:  Thompson's account may explain the belief that grep was written overnight.
 
 ```
