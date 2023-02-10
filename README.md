@@ -106,5 +106,4 @@ Thompson's account may explain the belief that grep was written overnight.
 ```
 4:  Before it was named, grep was a private utility written by Ken Thompson to search files for certain patterns. 
 9:  Thompson's account may explain the belief that grep was written overnight.
-
 ```
