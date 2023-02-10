@@ -29,7 +29,7 @@ This control key is written right before the expression and it indicates that [r
 
 
 ### *Title!!!!:*
-The lines in qoute below are from the Wikipedia page - grep. We will use them to demonstrait the use of the program functionality. Let us refer to them as a file 'grep.wiki'.
+The nine lines in qoute below are from the Wikipedia page - grep. We will use them to demonstrait the use of the program functionality. Let us refer to them as a file 'grep.wiki'.
 
 """
 
@@ -63,19 +63,42 @@ Thompson's account may explain the belief that grep was written overnight.
 
 ```
 3:  grep was originally developed for the Unix operating system, but later available for all Unix-like systems and some others such as OS-9.
-
 4-  Before it was named, grep was a private utility written by Ken Thompson to search files for certain patterns. 
-
 5-  Doug McIlroy, unaware of its existence, asked Thompson to write such a program. 
-
 ```
 
-`my_grep -n grep.wiki`
+`my_grep -i -E ("w"|"h")as grep.wiki`
+```
+Its name comes from the ed command grep (globally search for a regular expression and print matching lines), which has the same effect. 
 
-`my_grep -n grep.wiki`
+grep was originally developed for the Unix operating system, but later available for all Unix-like systems and some others such as OS-9.
 
-`my_grep -n grep.wiki`
+Before it was named, grep was a private utility written by Ken Thompson to search files for certain patterns.
 
+The next day he presented the program to McIlroy, who said it was exactly what he wanted. 
+
+Thompson's account may explain the belief that grep was written overnight.
+```
+
+`my_grep -n -E it[t-z] grep.wiki`
+```
+1:  grep is a command-line utility for searching plain-text data sets for lines that match a regular expression.
+4:  Before it was named, grep was a private utility written by Ken Thompson to search files for certain patterns.
+6:  Responding that he would think about such a utility overnight,
+9:  Thompson's account may explain the belief that grep was written overnight.
+```
+`my_grep -c -E it[t-z] grep.wiki`
+```
+1
+4
+6
+9
+```
+`my_grep -n -v -E it. grep.wiki`
+```
+3:  grep was originally developed for the Unix operating system, but later available for all Unix-like systems and some others such as OS-9.
+7:  Thompson actually corrected bugs and made improvements for about an hour on his own program called s (short for "search").
+```
 add printouts after every command!!!
 
 
