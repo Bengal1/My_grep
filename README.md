@@ -31,12 +31,18 @@ This control key is written right before the expression and it indicates that [r
 ### *Title!!!!:*
 
 grep is a command-line utility for searching plain-text data sets for lines that match a regular expression. 
-Its name comes from the ed command g/re/p (globally search for a regular expression and print matching lines), which has the same effect. 
+
+Its name comes from the ed command grep (globally search for a regular expression and print matching lines), which has the same effect. 
+
 grep was originally developed for the Unix operating system, but later available for all Unix-like systems and some others such as OS-9.
+
 Before it was named, grep was a private utility written by Ken Thompson to search files for certain patterns. 
+
 Doug McIlroy, unaware of its existence, asked Thompson to write such a program. 
+
 Responding that he would think about such a utility overnight, Thompson actually corrected bugs and made improvements for about an hour on his own program called s (short for "search"). 
-The next day he presented the program to McIlroy, who said it was exactly what he wanted. Thompson's account may explain the belief that grep was written overnight.[6]
+
+The next day he presented the program to McIlroy, who said it was exactly what he wanted. Thompson's account may explain the belief that grep was written overnight.
 
 `my_grep -n`
 
