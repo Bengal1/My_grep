@@ -28,7 +28,7 @@ This control key is written right before the expression and it indicates that [r
 - **.** (dot) - When using dot (.) the program will accept every character in its respective place when lookin for the wanted expression.
 
 
-### *Title!!!!:*
+## *Demonstration:*
 The nine lines in qoute below are from the Wikipedia page - grep. We will use them to demonstrait the use of the program functionality. Let us refer to them as a file 'grep.wiki'.
 
 """
