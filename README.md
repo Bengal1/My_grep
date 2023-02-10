@@ -30,7 +30,9 @@ This control key is written right before the expression and it indicates that [r
 
 ### *Title!!!!:*
 The lines in qoute below are from the Wikipedia page - grep. We will use them to demonstrait the use of the the function. Let us refer to them as a file 'grep.wiki'.
+
 """
+
 grep is a command-line utility for searching plain-text data sets for lines that match a regular expression. 
 
 Its name comes from the ed command grep (globally search for a regular expression and print matching lines), which has the same effect. 
@@ -48,6 +50,7 @@ Thompson actually corrected bugs and made improvements for about an hour on his 
 The next day he presented the program to McIlroy, who said it was exactly what he wanted. 
 
 Thompson's account may explain the belief that grep was written overnight.
+
 """
 
 `my_grep -n OS grep.wiki`
