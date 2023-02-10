@@ -29,7 +29,8 @@ This control key is written right before the expression and it indicates that [r
 
 
 ### *Title!!!!:*
-
+The lines in qoute below are from the Wikipedia page - grep. We will use them to demonstrait the use of the the function. Let us refer to them as a file 'grep.wiki'.
+"""
 grep is a command-line utility for searching plain-text data sets for lines that match a regular expression. 
 
 Its name comes from the ed command grep (globally search for a regular expression and print matching lines), which has the same effect. 
@@ -40,19 +41,37 @@ Before it was named, grep was a private utility written by Ken Thompson to searc
 
 Doug McIlroy, unaware of its existence, asked Thompson to write such a program. 
 
-Responding that he would think about such a utility overnight, Thompson actually corrected bugs and made improvements for about an hour on his own program called s (short for "search"). 
+Responding that he would think about such a utility overnight, 
 
-The next day he presented the program to McIlroy, who said it was exactly what he wanted. Thompson's account may explain the belief that grep was written overnight.
+Thompson actually corrected bugs and made improvements for about an hour on his own program called s (short for "search"). 
 
-`my_grep -n`
+The next day he presented the program to McIlroy, who said it was exactly what he wanted. 
 
-`my_grep -n`
+Thompson's account may explain the belief that grep was written overnight.
+"""
 
-`my_grep -n`
+`my_grep -n OS grep.wiki`
 
-`my_grep -n`
+```
+3:  grep was originally developed for the Unix operating system, but later available for all Unix-like systems and some others such as OS-9.
+```
 
-`my_grep -n`
+`my_grep -n -A 2 OS grep.wiki`
+
+```
+3:  grep was originally developed for the Unix operating system, but later available for all Unix-like systems and some others such as OS-9.
+
+4-  Before it was named, grep was a private utility written by Ken Thompson to search files for certain patterns. 
+
+5-  Doug McIlroy, unaware of its existence, asked Thompson to write such a program. 
+
+```
+
+`my_grep -n grep.wiki`
+
+`my_grep -n grep.wiki`
+
+`my_grep -n grep.wiki`
 
 add printouts after every command!!!
 
