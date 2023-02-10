@@ -22,7 +22,7 @@ This program is a vriation of the Linux utility grep. The program gets a file pa
 `-x` - The program will print lines that contain only the expression and nothing else.
 
 `-E` - This control key is written right before the expression and it indicates that [regular expressions](https://en.wikipedia.org/wiki/Regular_expression) are used at the input expression.
-#### '-E' Control key:
+#### `-E` Control key:
 - The special keys ()[]{}|\ will be escaped with '\'
 
 
