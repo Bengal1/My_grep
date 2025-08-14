@@ -55,7 +55,9 @@ Thompson's account may explain the belief that grep was written overnight.*
 
 The following part demonstrait valid command and there output. As you can see the name of the program is `my_grep` and the name of the "file" in the demonstraition is `grep.wiki`.
 
-* `my_grep -n OS grep.wiki`
+```bash
+my_grep -n OS grep.wiki
+```
 
 ```
 3:  grep was originally developed for the Unix operating system, but later available for all Unix-like systems and some others such as OS-9.
