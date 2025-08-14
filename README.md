@@ -55,7 +55,7 @@ Thompson's account may explain the belief that grep was written overnight.*
 
 The following part demonstrait valid command and there output. As you can see the name of the program is `my_grep` and the name of the "file" in the demonstraition is `grep.wiki`.
 
-```bash
+```terminal
 my_grep -n OS grep.wiki
 ```
 
